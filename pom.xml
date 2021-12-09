@@ -73,6 +73,16 @@
 		<version>5.4.0</version>
 		<scope>system</scope>
 		<systemPath>C:/Installation/SmartBear/SoapUI-5.4.0/bin/soapui-5.4.0.jar</systemPath>
+		<exclusions>
+	       <exclusion> 
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>slf4j-log4j12</artifactId>
+	       </exclusion>
+	       <exclusion> 
+	          <groupId>log4j</groupId>
+	          <artifactId>log4j</artifactId>
+	      </exclusion>
+    </exclusions> 
 	</dependency>
 		
 	<dependency>
@@ -80,6 +90,16 @@
 		<artifactId>log4j</artifactId>
 		<version>1.2.12</version>
 		<scope>test</scope>
+		<exclusions>
+	       <exclusion> 
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>slf4j-log4j12</artifactId>
+	       </exclusion>
+	       <exclusion> 
+	          <groupId>log4j</groupId>
+	          <artifactId>log4j</artifactId>
+	      </exclusion>
+    </exclusions> 
 	</dependency>
 		
 	<dependency>
@@ -117,6 +137,16 @@
 		<version>20131209</version>
 		<scope>system</scope>
 		<systemPath>C:/Installation/SmartBear/SoapUI-5.4.0/lib/proxy-vole-20131209.jar</systemPath>
+	    <exclusions>
+	       <exclusion> 
+	          <groupId>org.slf4j</groupId>
+	          <artifactId>slf4j-log4j12</artifactId>
+	       </exclusion>
+	       <exclusion> 
+	          <groupId>log4j</groupId>
+	          <artifactId>log4j</artifactId>
+	      </exclusion>
+	    </exclusions> 		
 	</dependency>
 			<dependency>
 			<groupId>xalan</groupId>
@@ -138,6 +168,16 @@
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.7.30</version>
 			<scope>test</scope>
+		    <exclusions>
+		       <exclusion> 
+		          <groupId>org.slf4j</groupId>
+		          <artifactId>slf4j-log4j12</artifactId>
+		       </exclusion>
+		       <exclusion> 
+		          <groupId>log4j</groupId>
+		          <artifactId>log4j</artifactId>
+		      </exclusion>
+		    </exclusions>
 		</dependency>
 		
 		<dependency>
@@ -152,6 +192,16 @@
 			<version>5.4.0</version>
 			<scope>system</scope>
 			<systemPath>C:/Installation/SmartBear/SoapUI-5.4.0/lib/out-app-analytics-provider-5.4.0.jar</systemPath>
+		    <exclusions>
+		       <exclusion> 
+		          <groupId>org.slf4j</groupId>
+		          <artifactId>slf4j-log4j12</artifactId>
+		       </exclusion>
+		       <exclusion> 
+		          <groupId>log4j</groupId>
+		          <artifactId>log4j</artifactId>
+		      </exclusion>
+		    </exclusions>			
 		</dependency>
 		
 		<dependency>
@@ -163,6 +213,54 @@
 			<groupId>org.bouncycastle</groupId>
 			<artifactId>bcprov-jdk16</artifactId>
 			<version>1.46</version>
-		</dependency>			
+		</dependency>
+		<dependency>
+			<groupId>javax.wsdl</groupId>
+			<artifactId>javax.wsdl</artifactId>
+			<version>1.6.2</version>
+			<scope>system</scope>
+			<systemPath>C:/Installation/SmartBear/SoapUI-5.4.0/lib/wsdl4j-1.6.2-fixed.jar</systemPath>
+		    <exclusions>
+		       <exclusion> 
+		          <groupId>org.slf4j</groupId>
+		          <artifactId>slf4j-log4j12</artifactId>
+		       </exclusion>
+		       <exclusion> 
+		          <groupId>log4j</groupId>
+		          <artifactId>log4j</artifactId>
+		      </exclusion>
+		    </exclusions>
+		</dependency>	
+		<dependency>
+			<groupId>org.apache.flex.blazeds</groupId>
+			<artifactId>flex-messaging-core</artifactId>
+			<version>4.7.3</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>3.2.2</version>
+		</dependency>
+				<dependency>
+			<groupId>org.glassfish.main.javaee-api</groupId>
+			<artifactId>javax.jms</artifactId>
+			<version>3.1.2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.mail</groupId>
+			<artifactId>javax.mail</artifactId>
+			<version>1.6.2</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.15</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.9.4</version>
+		</dependency>
+		
   </dependencies>
 </project>

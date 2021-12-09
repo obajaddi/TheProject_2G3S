@@ -1,0 +1,2678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="d8f1d639-d448-4b03-ba07-0c7a9f0141b7" activeEnvironment="Default" name="SOAP Logicaldoc" resourceRoot="" soapui-version="5.4.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="047315f8-b2a2-4b98-a352-b1b51486ccef" wsaVersion="NONE" name="SoapDocumentServiceServiceSoapBinding" type="wsdl" bindingName="{http://endpoint.soap.webservice.logicaldoc.com/}SoapDocumentServiceServiceSoapBinding" soapVersion="1_1" anonymous="optional" definition="http://localhost:8080/logicaldoc/services/Document?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://localhost:8080/logicaldoc/services/Document?wsdl"><con:part><con:url>http://localhost:8080/logicaldoc/services/Document?wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="SoapDocumentServiceService" targetNamespace="http://endpoint.soap.webservice.logicaldoc.com/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://endpoint.soap.webservice.logicaldoc.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:ns1="http://ws.logicaldoc.com">
+  <wsdl:import location="http://localhost:8080/logicaldoc/services/Document?wsdl=Document.wsdl" namespace="http://ws.logicaldoc.com"></wsdl:import>
+  <wsdl:binding name="SoapDocumentServiceServiceSoapBinding" type="ns1:Document">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="setPassword">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="setPassword">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="setPasswordResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="createDownloadTicket">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="createDownloadTicket">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createDownloadTicketResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAliases">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getAliases">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getAliasesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getResource">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getResource">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getResourceResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getLinks">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getLinks">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getLinksResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="checkinDocument">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="checkinDocument">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="checkinDocumentResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="upload">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="upload">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="uploadResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getContent">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getContent">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getContentResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="link">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="link">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="linkResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="update">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="update">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="updateResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="unprotect">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="unprotect">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="unprotectResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="delete">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="deleteResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="replaceFile">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="replaceFile">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="replaceFileResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="uploadResource">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="uploadResource">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="uploadResourceResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="sendEmail">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="sendEmail">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="sendEmailResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="checkin">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="checkin">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="checkinResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getNotes">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getNotes">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getNotesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="deleteNote">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="deleteNote">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="deleteNoteResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="create">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="create">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getVersions">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getVersions">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getVersionsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="lock">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="lock">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="lockResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="rateDocument">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="rateDocument">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="rateDocumentResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="checkout">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="checkout">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="checkoutResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="createAlias">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="createAlias">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createAliasResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDocumentByCustomId">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getDocumentByCustomId">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getDocumentByCustomIdResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="promoteVersion">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="promoteVersion">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="promoteVersionResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="move">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="move">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="moveResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="unlock">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="unlock">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="unlockResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="reindex">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="reindex">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="reindexResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="restore">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="restore">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="restoreResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDocument">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getDocument">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getDocumentResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDocuments">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getDocuments">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getDocumentsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="createThumbnail">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="createThumbnail">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createThumbnailResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="deleteLink">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="deleteLink">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="deleteLinkResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="listDocuments">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="listDocuments">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="listDocumentsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="deleteVersion">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="deleteVersion">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="deleteVersionResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getRatings">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getRatings">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getRatingsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getVersionContent">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getVersionContent">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getVersionContentResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getRecentDocuments">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getRecentDocuments">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getRecentDocumentsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getExtractedText">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getExtractedText">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getExtractedTextResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="addNote">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="addNote">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="addNoteResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="rename">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="rename">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="renameResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="unsetPassword">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="unsetPassword">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="unsetPasswordResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="createPdf">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="createPdf">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createPdfResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="isReadable">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="isReadable">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="isReadableResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SoapDocumentServiceService">
+    <wsdl:port binding="tns:SoapDocumentServiceServiceSoapBinding" name="SoapDocumentServicePort">
+      <soap:address location="http://localhost:8080/logicaldoc/services/Document"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>http://localhost:8080/logicaldoc/services/Document?wsdl=Document.wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="Document" targetNamespace="http://ws.logicaldoc.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="http://ws.logicaldoc.com">
+  <wsdl:types>
+    <xs:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://ws.logicaldoc.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ws.logicaldoc.com">
+      <xs:element name="addNote" type="tns:addNote"/>
+      <xs:element name="addNoteResponse" type="tns:addNoteResponse"/>
+      <xs:element name="attribute" type="tns:WSAttribute"/>
+      <xs:element name="checkin" type="tns:checkin"/>
+      <xs:element name="checkinDocument" type="tns:checkinDocument"/>
+      <xs:element name="checkinDocumentResponse" type="tns:checkinDocumentResponse"/>
+      <xs:element name="checkinResponse" type="tns:checkinResponse"/>
+      <xs:element name="checkout" type="tns:checkout"/>
+      <xs:element name="checkoutResponse" type="tns:checkoutResponse"/>
+      <xs:element name="create" type="tns:create"/>
+      <xs:element name="createAlias" type="tns:createAlias"/>
+      <xs:element name="createAliasResponse" type="tns:createAliasResponse"/>
+      <xs:element name="createDownloadTicket" type="tns:createDownloadTicket"/>
+      <xs:element name="createDownloadTicketResponse" type="tns:createDownloadTicketResponse"/>
+      <xs:element name="createPdf" type="tns:createPdf"/>
+      <xs:element name="createPdfResponse" type="tns:createPdfResponse"/>
+      <xs:element name="createResponse" type="tns:createResponse"/>
+      <xs:element name="createThumbnail" type="tns:createThumbnail"/>
+      <xs:element name="createThumbnailResponse" type="tns:createThumbnailResponse"/>
+      <xs:element name="delete" type="tns:delete"/>
+      <xs:element name="deleteLink" type="tns:deleteLink"/>
+      <xs:element name="deleteLinkResponse" type="tns:deleteLinkResponse"/>
+      <xs:element name="deleteNote" type="tns:deleteNote"/>
+      <xs:element name="deleteNoteResponse" type="tns:deleteNoteResponse"/>
+      <xs:element name="deleteResponse" type="tns:deleteResponse"/>
+      <xs:element name="deleteVersion" type="tns:deleteVersion"/>
+      <xs:element name="deleteVersionResponse" type="tns:deleteVersionResponse"/>
+      <xs:element name="document" type="tns:WSDocument"/>
+      <xs:element name="getAliases" type="tns:getAliases"/>
+      <xs:element name="getAliasesResponse" type="tns:getAliasesResponse"/>
+      <xs:element name="getContent" type="tns:getContent"/>
+      <xs:element name="getContentResponse" type="tns:getContentResponse"/>
+      <xs:element name="getDocument" type="tns:getDocument"/>
+      <xs:element name="getDocumentByCustomId" type="tns:getDocumentByCustomId"/>
+      <xs:element name="getDocumentByCustomIdResponse" type="tns:getDocumentByCustomIdResponse"/>
+      <xs:element name="getDocumentResponse" type="tns:getDocumentResponse"/>
+      <xs:element name="getDocuments" type="tns:getDocuments"/>
+      <xs:element name="getDocumentsResponse" type="tns:getDocumentsResponse"/>
+      <xs:element name="getExtractedText" type="tns:getExtractedText"/>
+      <xs:element name="getExtractedTextResponse" type="tns:getExtractedTextResponse"/>
+      <xs:element name="getLinks" type="tns:getLinks"/>
+      <xs:element name="getLinksResponse" type="tns:getLinksResponse"/>
+      <xs:element name="getNotes" type="tns:getNotes"/>
+      <xs:element name="getNotesResponse" type="tns:getNotesResponse"/>
+      <xs:element name="getRatings" type="tns:getRatings"/>
+      <xs:element name="getRatingsResponse" type="tns:getRatingsResponse"/>
+      <xs:element name="getRecentDocuments" type="tns:getRecentDocuments"/>
+      <xs:element name="getRecentDocumentsResponse" type="tns:getRecentDocumentsResponse"/>
+      <xs:element name="getResource" type="tns:getResource"/>
+      <xs:element name="getResourceResponse" type="tns:getResourceResponse"/>
+      <xs:element name="getVersionContent" type="tns:getVersionContent"/>
+      <xs:element name="getVersionContentResponse" type="tns:getVersionContentResponse"/>
+      <xs:element name="getVersions" type="tns:getVersions"/>
+      <xs:element name="getVersionsResponse" type="tns:getVersionsResponse"/>
+      <xs:element name="isReadable" type="tns:isReadable"/>
+      <xs:element name="isReadableResponse" type="tns:isReadableResponse"/>
+      <xs:element name="link" type="tns:link"/>
+      <xs:element name="linkResponse" type="tns:linkResponse"/>
+      <xs:element name="listDocuments" type="tns:listDocuments"/>
+      <xs:element name="listDocumentsResponse" type="tns:listDocumentsResponse"/>
+      <xs:element name="lock" type="tns:lock"/>
+      <xs:element name="lockResponse" type="tns:lockResponse"/>
+      <xs:element name="move" type="tns:move"/>
+      <xs:element name="moveResponse" type="tns:moveResponse"/>
+      <xs:element name="promoteVersion" type="tns:promoteVersion"/>
+      <xs:element name="promoteVersionResponse" type="tns:promoteVersionResponse"/>
+      <xs:element name="rateDocument" type="tns:rateDocument"/>
+      <xs:element name="rateDocumentResponse" type="tns:rateDocumentResponse"/>
+      <xs:element name="reindex" type="tns:reindex"/>
+      <xs:element name="reindexResponse" type="tns:reindexResponse"/>
+      <xs:element name="rename" type="tns:rename"/>
+      <xs:element name="renameResponse" type="tns:renameResponse"/>
+      <xs:element name="replaceFile" type="tns:replaceFile"/>
+      <xs:element name="replaceFileResponse" type="tns:replaceFileResponse"/>
+      <xs:element name="restore" type="tns:restore"/>
+      <xs:element name="restoreResponse" type="tns:restoreResponse"/>
+      <xs:element name="sendEmail" type="tns:sendEmail"/>
+      <xs:element name="sendEmailResponse" type="tns:sendEmailResponse"/>
+      <xs:element name="setPassword" type="tns:setPassword"/>
+      <xs:element name="setPasswordResponse" type="tns:setPasswordResponse"/>
+      <xs:element name="unlock" type="tns:unlock"/>
+      <xs:element name="unlockResponse" type="tns:unlockResponse"/>
+      <xs:element name="unprotect" type="tns:unprotect"/>
+      <xs:element name="unprotectResponse" type="tns:unprotectResponse"/>
+      <xs:element name="unsetPassword" type="tns:unsetPassword"/>
+      <xs:element name="unsetPasswordResponse" type="tns:unsetPasswordResponse"/>
+      <xs:element name="update" type="tns:update"/>
+      <xs:element name="updateResponse" type="tns:updateResponse"/>
+      <xs:element name="upload" type="tns:upload"/>
+      <xs:element name="uploadResource" type="tns:uploadResource"/>
+      <xs:element name="uploadResourceResponse" type="tns:uploadResourceResponse"/>
+      <xs:element name="uploadResponse" type="tns:uploadResponse"/>
+      <xs:complexType name="setPassword">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="password" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="setPasswordResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="createDownloadTicket">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="suffix" type="xs:string"/>
+          <xs:element minOccurs="0" name="expireHours" type="xs:int"/>
+          <xs:element minOccurs="0" name="expireDate" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="createDownloadTicketResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ticket" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getAliases">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getAliasesResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="aliases" type="tns:WSDocument"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="WSDocument">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="attributes" nillable="true" type="tns:WSAttribute"/>
+          <xs:element minOccurs="0" name="comment" type="xs:string"/>
+          <xs:element minOccurs="0" name="creation" type="xs:string"/>
+          <xs:element minOccurs="0" name="creator" type="xs:string"/>
+          <xs:element name="creatorId" type="xs:long"/>
+          <xs:element minOccurs="0" name="customId" type="xs:string"/>
+          <xs:element minOccurs="0" name="date" type="xs:string"/>
+          <xs:element minOccurs="0" name="deleteUserId" type="xs:long"/>
+          <xs:element minOccurs="0" name="digest" type="xs:string"/>
+          <xs:element minOccurs="0" name="docRef" type="xs:long"/>
+          <xs:element minOccurs="0" name="docRefType" type="xs:string"/>
+          <xs:element minOccurs="0" name="exportId" type="xs:long"/>
+          <xs:element minOccurs="0" name="exportName" type="xs:string"/>
+          <xs:element name="exportStatus" type="xs:int"/>
+          <xs:element minOccurs="0" name="fileName" type="xs:string"/>
+          <xs:element name="fileSize" type="xs:long"/>
+          <xs:element minOccurs="0" name="fileVersion" type="xs:string"/>
+          <xs:element minOccurs="0" name="folderId" type="xs:long"/>
+          <xs:element minOccurs="0" name="formId" type="xs:long"/>
+          <xs:element minOccurs="0" name="icon" type="xs:string"/>
+          <xs:element name="id" type="xs:long"/>
+          <xs:element name="immutable" type="xs:int"/>
+          <xs:element name="indexed" type="xs:int"/>
+          <xs:element minOccurs="0" name="language" type="xs:string"/>
+          <xs:element minOccurs="0" name="lastModified" type="xs:string"/>
+          <xs:element minOccurs="0" name="lockUserId" type="xs:long"/>
+          <xs:element name="nature" type="xs:int"/>
+          <xs:element name="pages" type="xs:int"/>
+          <xs:element minOccurs="0" name="passwordProtected" type="xs:int"/>
+          <xs:element name="published" type="xs:int"/>
+          <xs:element minOccurs="0" name="publisher" type="xs:string"/>
+          <xs:element name="publisherId" type="xs:long"/>
+          <xs:element minOccurs="0" name="rating" type="xs:int"/>
+          <xs:element minOccurs="0" name="score" type="xs:int"/>
+          <xs:element name="signed" type="xs:int"/>
+          <xs:element name="stamped" type="xs:int"/>
+          <xs:element minOccurs="0" name="startPublishing" type="xs:string"/>
+          <xs:element name="status" type="xs:int"/>
+          <xs:element minOccurs="0" name="stopPublishing" type="xs:string"/>
+          <xs:element minOccurs="0" name="summary" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="tags" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="templateId" type="xs:long"/>
+          <xs:element minOccurs="0" name="type" type="xs:string"/>
+          <xs:element minOccurs="0" name="version" type="xs:string"/>
+          <xs:element minOccurs="0" name="workflowStatus" type="xs:string"/>
+          <xs:element minOccurs="0" name="workflowStatusDisplay" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="WSAttribute">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="dateValue" type="xs:string"/>
+          <xs:element minOccurs="0" name="doubleValue" type="xs:double"/>
+          <xs:element name="editor" type="xs:int"/>
+          <xs:element name="hidden" type="xs:int"/>
+          <xs:element minOccurs="0" name="intValue" type="xs:long"/>
+          <xs:element minOccurs="0" name="label" type="xs:string"/>
+          <xs:element name="mandatory" type="xs:int"/>
+          <xs:element name="multiple" type="xs:int"/>
+          <xs:element minOccurs="0" name="name" type="xs:string"/>
+          <xs:element minOccurs="0" name="parent" type="xs:string"/>
+          <xs:element name="position" type="xs:int"/>
+          <xs:element minOccurs="0" name="setId" type="xs:long"/>
+          <xs:element minOccurs="0" name="stringValue" type="xs:string"/>
+          <xs:element minOccurs="0" name="stringValues" type="xs:string"/>
+          <xs:element name="type" type="xs:int"/>
+          <xs:element minOccurs="0" name="value" type="xs:anyType"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getResource">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="fileVersion" type="xs:string"/>
+          <xs:element minOccurs="0" name="suffix" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getResourceResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:base64Binary"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getLinks">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getLinksResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="link" type="tns:WSLink"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="WSLink">
+        <xs:sequence>
+          <xs:element name="doc1" type="xs:long"/>
+          <xs:element name="doc2" type="xs:long"/>
+          <xs:element name="id" type="xs:long"/>
+          <xs:element minOccurs="0" name="type" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="checkinDocument">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="comment" type="xs:string"/>
+          <xs:element minOccurs="0" name="filename" type="xs:string"/>
+          <xs:element name="release" type="xs:boolean"/>
+          <xs:element minOccurs="0" name="docVO" type="tns:WSDocument"/>
+          <xs:element minOccurs="0" name="content" type="xs:base64Binary"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="checkinDocumentResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="upload">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element minOccurs="0" name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="folderId" type="xs:long"/>
+          <xs:element name="release" type="xs:boolean"/>
+          <xs:element minOccurs="0" name="filename" type="xs:string"/>
+          <xs:element minOccurs="0" name="language" type="xs:string"/>
+          <xs:element minOccurs="0" name="content" type="xs:base64Binary"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="uploadResponse">
+        <xs:sequence>
+          <xs:element name="docId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContent">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getContentResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:base64Binary"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="link">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="doc1" type="xs:long"/>
+          <xs:element name="doc2" type="xs:long"/>
+          <xs:element minOccurs="0" name="type" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="linkResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="link" type="tns:WSLink"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="update">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element minOccurs="0" name="document" type="tns:WSDocument"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="updateResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="unprotect">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="password" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="unprotectResponse">
+        <xs:sequence>
+          <xs:element name="unprotect" type="xs:boolean"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="delete">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="deleteResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="replaceFile">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="fileVersion" type="xs:string"/>
+          <xs:element minOccurs="0" name="comment" type="xs:string"/>
+          <xs:element minOccurs="0" name="content" type="xs:base64Binary"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="replaceFileResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="uploadResource">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="fileVersion" type="xs:string"/>
+          <xs:element minOccurs="0" name="suffix" type="xs:string"/>
+          <xs:element minOccurs="0" name="content" type="xs:base64Binary"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="uploadResourceResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="sendEmail">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="docIds" type="xs:long"/>
+          <xs:element minOccurs="0" name="recipients" type="xs:string"/>
+          <xs:element minOccurs="0" name="subject" type="xs:string"/>
+          <xs:element minOccurs="0" name="message" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="sendEmailResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="checkin">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="comment" type="xs:string"/>
+          <xs:element minOccurs="0" name="filename" type="xs:string"/>
+          <xs:element name="release" type="xs:boolean"/>
+          <xs:element minOccurs="0" name="content" type="xs:base64Binary"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="checkinResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="getNotes">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getNotesResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="note" type="tns:WSNote"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="WSNote">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="date" type="xs:dateTime"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element name="id" type="xs:long"/>
+          <xs:element minOccurs="0" name="message" type="xs:string"/>
+          <xs:element name="page" type="xs:int"/>
+          <xs:element name="userId" type="xs:long"/>
+          <xs:element minOccurs="0" name="username" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="deleteNote">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="noteId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="deleteNoteResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="create">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element minOccurs="0" name="document" type="tns:WSDocument"/>
+          <xs:element minOccurs="0" name="content" type="xs:base64Binary"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="createResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="document" type="tns:WSDocument"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getVersions">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getVersionsResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="document" type="tns:WSDocument"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="lock">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="lockResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="rateDocument">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element name="vote" type="xs:int"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="rateDocumentResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="rating" type="tns:WSRating"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="WSRating">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="date" type="xs:dateTime"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element name="userId" type="xs:long"/>
+          <xs:element minOccurs="0" name="username" type="xs:string"/>
+          <xs:element name="vote" type="xs:int"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="checkout">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="checkoutResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="createAlias">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element name="folderId" type="xs:long"/>
+          <xs:element minOccurs="0" name="type" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="createAliasResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="document" type="tns:WSDocument"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDocumentByCustomId">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element minOccurs="0" name="customId" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDocumentByCustomIdResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="document" type="tns:WSDocument"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="promoteVersion">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="version" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="promoteVersionResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="move">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element name="folderId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="moveResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="unlock">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="unlockResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="reindex">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="content" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="reindexResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="restore">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element name="folderId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="restoreResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="getDocument">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDocumentResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="document" type="tns:WSDocument"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDocuments">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="docIds" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getDocumentsResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="documents" type="tns:WSDocument"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="createThumbnail">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="fileVersion" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="createThumbnailResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="deleteLink">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="id" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="deleteLinkResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="listDocuments">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="folderId" type="xs:long"/>
+          <xs:element minOccurs="0" name="fileName" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="listDocumentsResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="document" type="tns:WSDocument"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="deleteVersion">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="version" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="deleteVersionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="latest-version" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRatings">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRatingsResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="rating" type="tns:WSRating"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getVersionContent">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="version" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getVersionContentResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:base64Binary"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRecentDocuments">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element minOccurs="0" name="maxHits" type="xs:int"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRecentDocumentsResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="document" type="tns:WSDocument"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getExtractedText">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getExtractedTextResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="text" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="addNote">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="note" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="addNoteResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="note" type="tns:WSNote"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="rename">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="name" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="renameResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="unsetPassword">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="currentPassword" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="unsetPasswordResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="createPdf">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+          <xs:element minOccurs="0" name="fileVersion" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="createPdfResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="isReadable">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+          <xs:element name="docId" type="xs:long"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="isReadableResponse">
+        <xs:sequence>
+          <xs:element name="return" type="xs:boolean"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Exception" type="tns:Exception"/>
+      <xs:complexType name="Exception">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="message" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="setPassword">
+    <wsdl:part element="ns1:setPassword" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAliasesResponse">
+    <wsdl:part element="ns1:getAliasesResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createDownloadTicket">
+    <wsdl:part element="ns1:createDownloadTicket" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAliases">
+    <wsdl:part element="ns1:getAliases" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getResource">
+    <wsdl:part element="ns1:getResource" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addNoteResponse">
+    <wsdl:part element="ns1:addNoteResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="upload">
+    <wsdl:part element="ns1:upload" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createPdfResponse">
+    <wsdl:part element="ns1:createPdfResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteVersionResponse">
+    <wsdl:part element="ns1:deleteVersionResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getVersionContentResponse">
+    <wsdl:part element="ns1:getVersionContentResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="uploadResponse">
+    <wsdl:part element="ns1:uploadResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkinResponse">
+    <wsdl:part element="ns1:checkinResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="unprotect">
+    <wsdl:part element="ns1:unprotect" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="moveResponse">
+    <wsdl:part element="ns1:moveResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="restoreResponse">
+    <wsdl:part element="ns1:restoreResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkin">
+    <wsdl:part element="ns1:checkin" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="isReadableResponse">
+    <wsdl:part element="ns1:isReadableResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteNote">
+    <wsdl:part element="ns1:deleteNote" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="create">
+    <wsdl:part element="ns1:create" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getVersions">
+    <wsdl:part element="ns1:getVersions" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="lock">
+    <wsdl:part element="ns1:lock" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="uploadResourceResponse">
+    <wsdl:part element="ns1:uploadResourceResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createDownloadTicketResponse">
+    <wsdl:part element="ns1:createDownloadTicketResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="lockResponse">
+    <wsdl:part element="ns1:lockResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="linkResponse">
+    <wsdl:part element="ns1:linkResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createAliasResponse">
+    <wsdl:part element="ns1:createAliasResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDocumentsResponse">
+    <wsdl:part element="ns1:getDocumentsResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createThumbnailResponse">
+    <wsdl:part element="ns1:createThumbnailResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="unlock">
+    <wsdl:part element="ns1:unlock" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="sendEmailResponse">
+    <wsdl:part element="ns1:sendEmailResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="reindex">
+    <wsdl:part element="ns1:reindex" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDocument">
+    <wsdl:part element="ns1:getDocument" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDocuments">
+    <wsdl:part element="ns1:getDocuments" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getResourceResponse">
+    <wsdl:part element="ns1:getResourceResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContentResponse">
+    <wsdl:part element="ns1:getContentResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createThumbnail">
+    <wsdl:part element="ns1:createThumbnail" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getExtractedTextResponse">
+    <wsdl:part element="ns1:getExtractedTextResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getLinksResponse">
+    <wsdl:part element="ns1:getLinksResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getRatings">
+    <wsdl:part element="ns1:getRatings" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getVersionContent">
+    <wsdl:part element="ns1:getVersionContent" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="unsetPasswordResponse">
+    <wsdl:part element="ns1:unsetPasswordResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getRecentDocumentsResponse">
+    <wsdl:part element="ns1:getRecentDocumentsResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="rateDocumentResponse">
+    <wsdl:part element="ns1:rateDocumentResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addNote">
+    <wsdl:part element="ns1:addNote" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteLinkResponse">
+    <wsdl:part element="ns1:deleteLinkResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="unsetPassword">
+    <wsdl:part element="ns1:unsetPassword" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="isReadable">
+    <wsdl:part element="ns1:isReadable" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateResponse">
+    <wsdl:part element="ns1:updateResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getLinks">
+    <wsdl:part element="ns1:getLinks" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkinDocument">
+    <wsdl:part element="ns1:checkinDocument" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="listDocumentsResponse">
+    <wsdl:part element="ns1:listDocumentsResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getContent">
+    <wsdl:part element="ns1:getContent" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="link">
+    <wsdl:part element="ns1:link" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="update">
+    <wsdl:part element="ns1:update" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkinDocumentResponse">
+    <wsdl:part element="ns1:checkinDocumentResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="delete">
+    <wsdl:part element="ns1:delete" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="replaceFile">
+    <wsdl:part element="ns1:replaceFile" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="promoteVersionResponse">
+    <wsdl:part element="ns1:promoteVersionResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="uploadResource">
+    <wsdl:part element="ns1:uploadResource" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="sendEmail">
+    <wsdl:part element="ns1:sendEmail" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getNotes">
+    <wsdl:part element="ns1:getNotes" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteResponse">
+    <wsdl:part element="ns1:deleteResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="renameResponse">
+    <wsdl:part element="ns1:renameResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="rateDocument">
+    <wsdl:part element="ns1:rateDocument" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getVersionsResponse">
+    <wsdl:part element="ns1:getVersionsResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkout">
+    <wsdl:part element="ns1:checkout" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="reindexResponse">
+    <wsdl:part element="ns1:reindexResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getRatingsResponse">
+    <wsdl:part element="ns1:getRatingsResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createAlias">
+    <wsdl:part element="ns1:createAlias" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDocumentByCustomId">
+    <wsdl:part element="ns1:getDocumentByCustomId" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="promoteVersion">
+    <wsdl:part element="ns1:promoteVersion" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkoutResponse">
+    <wsdl:part element="ns1:checkoutResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="unprotectResponse">
+    <wsdl:part element="ns1:unprotectResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="move">
+    <wsdl:part element="ns1:move" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDocumentByCustomIdResponse">
+    <wsdl:part element="ns1:getDocumentByCustomIdResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="restore">
+    <wsdl:part element="ns1:restore" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createResponse">
+    <wsdl:part element="ns1:createResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteLink">
+    <wsdl:part element="ns1:deleteLink" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="listDocuments">
+    <wsdl:part element="ns1:listDocuments" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteVersion">
+    <wsdl:part element="ns1:deleteVersion" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="Exception">
+    <wsdl:part element="ns1:Exception" name="Exception"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDocumentResponse">
+    <wsdl:part element="ns1:getDocumentResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteNoteResponse">
+    <wsdl:part element="ns1:deleteNoteResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getNotesResponse">
+    <wsdl:part element="ns1:getNotesResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="unlockResponse">
+    <wsdl:part element="ns1:unlockResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getRecentDocuments">
+    <wsdl:part element="ns1:getRecentDocuments" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getExtractedText">
+    <wsdl:part element="ns1:getExtractedText" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="rename">
+    <wsdl:part element="ns1:rename" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="setPasswordResponse">
+    <wsdl:part element="ns1:setPasswordResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createPdf">
+    <wsdl:part element="ns1:createPdf" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="replaceFileResponse">
+    <wsdl:part element="ns1:replaceFileResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="Document">
+    <wsdl:operation name="setPassword">
+      <wsdl:input message="ns1:setPassword" name="setPassword"></wsdl:input>
+      <wsdl:output message="ns1:setPasswordResponse" name="setPasswordResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="createDownloadTicket">
+      <wsdl:input message="ns1:createDownloadTicket" name="createDownloadTicket"></wsdl:input>
+      <wsdl:output message="ns1:createDownloadTicketResponse" name="createDownloadTicketResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAliases">
+      <wsdl:input message="ns1:getAliases" name="getAliases"></wsdl:input>
+      <wsdl:output message="ns1:getAliasesResponse" name="getAliasesResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getResource">
+      <wsdl:input message="ns1:getResource" name="getResource"></wsdl:input>
+      <wsdl:output message="ns1:getResourceResponse" name="getResourceResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getLinks">
+      <wsdl:input message="ns1:getLinks" name="getLinks"></wsdl:input>
+      <wsdl:output message="ns1:getLinksResponse" name="getLinksResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="checkinDocument">
+      <wsdl:input message="ns1:checkinDocument" name="checkinDocument"></wsdl:input>
+      <wsdl:output message="ns1:checkinDocumentResponse" name="checkinDocumentResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="upload">
+      <wsdl:input message="ns1:upload" name="upload"></wsdl:input>
+      <wsdl:output message="ns1:uploadResponse" name="uploadResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getContent">
+      <wsdl:input message="ns1:getContent" name="getContent"></wsdl:input>
+      <wsdl:output message="ns1:getContentResponse" name="getContentResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="link">
+      <wsdl:input message="ns1:link" name="link"></wsdl:input>
+      <wsdl:output message="ns1:linkResponse" name="linkResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="update">
+      <wsdl:input message="ns1:update" name="update"></wsdl:input>
+      <wsdl:output message="ns1:updateResponse" name="updateResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="unprotect">
+      <wsdl:input message="ns1:unprotect" name="unprotect"></wsdl:input>
+      <wsdl:output message="ns1:unprotectResponse" name="unprotectResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <wsdl:input message="ns1:delete" name="delete"></wsdl:input>
+      <wsdl:output message="ns1:deleteResponse" name="deleteResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="replaceFile">
+      <wsdl:input message="ns1:replaceFile" name="replaceFile"></wsdl:input>
+      <wsdl:output message="ns1:replaceFileResponse" name="replaceFileResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="uploadResource">
+      <wsdl:input message="ns1:uploadResource" name="uploadResource"></wsdl:input>
+      <wsdl:output message="ns1:uploadResourceResponse" name="uploadResourceResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="sendEmail">
+      <wsdl:input message="ns1:sendEmail" name="sendEmail"></wsdl:input>
+      <wsdl:output message="ns1:sendEmailResponse" name="sendEmailResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="checkin">
+      <wsdl:input message="ns1:checkin" name="checkin"></wsdl:input>
+      <wsdl:output message="ns1:checkinResponse" name="checkinResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getNotes">
+      <wsdl:input message="ns1:getNotes" name="getNotes"></wsdl:input>
+      <wsdl:output message="ns1:getNotesResponse" name="getNotesResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="deleteNote">
+      <wsdl:input message="ns1:deleteNote" name="deleteNote"></wsdl:input>
+      <wsdl:output message="ns1:deleteNoteResponse" name="deleteNoteResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="create">
+      <wsdl:input message="ns1:create" name="create"></wsdl:input>
+      <wsdl:output message="ns1:createResponse" name="createResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getVersions">
+      <wsdl:input message="ns1:getVersions" name="getVersions"></wsdl:input>
+      <wsdl:output message="ns1:getVersionsResponse" name="getVersionsResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="lock">
+      <wsdl:input message="ns1:lock" name="lock"></wsdl:input>
+      <wsdl:output message="ns1:lockResponse" name="lockResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="rateDocument">
+      <wsdl:input message="ns1:rateDocument" name="rateDocument"></wsdl:input>
+      <wsdl:output message="ns1:rateDocumentResponse" name="rateDocumentResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="checkout">
+      <wsdl:input message="ns1:checkout" name="checkout"></wsdl:input>
+      <wsdl:output message="ns1:checkoutResponse" name="checkoutResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="createAlias">
+      <wsdl:input message="ns1:createAlias" name="createAlias"></wsdl:input>
+      <wsdl:output message="ns1:createAliasResponse" name="createAliasResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDocumentByCustomId">
+      <wsdl:input message="ns1:getDocumentByCustomId" name="getDocumentByCustomId"></wsdl:input>
+      <wsdl:output message="ns1:getDocumentByCustomIdResponse" name="getDocumentByCustomIdResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="promoteVersion">
+      <wsdl:input message="ns1:promoteVersion" name="promoteVersion"></wsdl:input>
+      <wsdl:output message="ns1:promoteVersionResponse" name="promoteVersionResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="move">
+      <wsdl:input message="ns1:move" name="move"></wsdl:input>
+      <wsdl:output message="ns1:moveResponse" name="moveResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="unlock">
+      <wsdl:input message="ns1:unlock" name="unlock"></wsdl:input>
+      <wsdl:output message="ns1:unlockResponse" name="unlockResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="reindex">
+      <wsdl:input message="ns1:reindex" name="reindex"></wsdl:input>
+      <wsdl:output message="ns1:reindexResponse" name="reindexResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="restore">
+      <wsdl:input message="ns1:restore" name="restore"></wsdl:input>
+      <wsdl:output message="ns1:restoreResponse" name="restoreResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDocument">
+      <wsdl:input message="ns1:getDocument" name="getDocument"></wsdl:input>
+      <wsdl:output message="ns1:getDocumentResponse" name="getDocumentResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getDocuments">
+      <wsdl:input message="ns1:getDocuments" name="getDocuments"></wsdl:input>
+      <wsdl:output message="ns1:getDocumentsResponse" name="getDocumentsResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="createThumbnail">
+      <wsdl:input message="ns1:createThumbnail" name="createThumbnail"></wsdl:input>
+      <wsdl:output message="ns1:createThumbnailResponse" name="createThumbnailResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="deleteLink">
+      <wsdl:input message="ns1:deleteLink" name="deleteLink"></wsdl:input>
+      <wsdl:output message="ns1:deleteLinkResponse" name="deleteLinkResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="listDocuments">
+      <wsdl:input message="ns1:listDocuments" name="listDocuments"></wsdl:input>
+      <wsdl:output message="ns1:listDocumentsResponse" name="listDocumentsResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="deleteVersion">
+      <wsdl:input message="ns1:deleteVersion" name="deleteVersion"></wsdl:input>
+      <wsdl:output message="ns1:deleteVersionResponse" name="deleteVersionResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getRatings">
+      <wsdl:input message="ns1:getRatings" name="getRatings"></wsdl:input>
+      <wsdl:output message="ns1:getRatingsResponse" name="getRatingsResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getVersionContent">
+      <wsdl:input message="ns1:getVersionContent" name="getVersionContent"></wsdl:input>
+      <wsdl:output message="ns1:getVersionContentResponse" name="getVersionContentResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getRecentDocuments">
+      <wsdl:input message="ns1:getRecentDocuments" name="getRecentDocuments"></wsdl:input>
+      <wsdl:output message="ns1:getRecentDocumentsResponse" name="getRecentDocumentsResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getExtractedText">
+      <wsdl:input message="ns1:getExtractedText" name="getExtractedText"></wsdl:input>
+      <wsdl:output message="ns1:getExtractedTextResponse" name="getExtractedTextResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="addNote">
+      <wsdl:input message="ns1:addNote" name="addNote"></wsdl:input>
+      <wsdl:output message="ns1:addNoteResponse" name="addNoteResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="rename">
+      <wsdl:input message="ns1:rename" name="rename"></wsdl:input>
+      <wsdl:output message="ns1:renameResponse" name="renameResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="unsetPassword">
+      <wsdl:input message="ns1:unsetPassword" name="unsetPassword"></wsdl:input>
+      <wsdl:output message="ns1:unsetPasswordResponse" name="unsetPasswordResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="createPdf">
+      <wsdl:input message="ns1:createPdf" name="createPdf"></wsdl:input>
+      <wsdl:output message="ns1:createPdfResponse" name="createPdfResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="isReadable">
+      <wsdl:input message="ns1:isReadable" name="isReadable"></wsdl:input>
+      <wsdl:output message="ns1:isReadableResponse" name="isReadableResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint></con:endpoints><con:operation id="4b513dcb-3c3e-4144-b7fe-20ec67c8497c" isOneWay="false" action="" name="addNote" bindingOperationName="addNote" type="Request-Response" outputName="addNoteResponse" inputName="addNote" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="b9f24403-6f5b-4e29-a67e-80888df20cdf" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:addNote>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <note>?</note>\r
+      </ws:addNote>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/addNote"/></con:call></con:operation><con:operation id="c49a1b3e-3ec5-4d53-a41c-6769b7cee838" isOneWay="false" action="" name="checkin" bindingOperationName="checkin" type="Request-Response" outputName="checkinResponse" inputName="checkin" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="47f76948-cfe7-42ab-b1b3-f94221fcbac0" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:checkin>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <comment>?</comment>\r
+         <!--Optional:-->\r
+         <filename>?</filename>\r
+         <release>?</release>\r
+         <!--Optional:-->\r
+         <content>cid:1058258443990</content>\r
+      </ws:checkin>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/checkin"/></con:call></con:operation><con:operation id="13e175b3-e8a6-4fa8-8d73-18fb53ec2341" isOneWay="false" action="" name="checkinDocument" bindingOperationName="checkinDocument" type="Request-Response" outputName="checkinDocumentResponse" inputName="checkinDocument" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="8156f459-b276-4aa8-a937-2325881def49" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:checkinDocument>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <comment>?</comment>\r
+         <!--Optional:-->\r
+         <filename>?</filename>\r
+         <release>?</release>\r
+         <!--Optional:-->\r
+         <docVO>\r
+            <!--Zero or more repetitions:-->\r
+            <attributes>\r
+               <!--Optional:-->\r
+               <dateValue>?</dateValue>\r
+               <!--Optional:-->\r
+               <doubleValue>?</doubleValue>\r
+               <editor>?</editor>\r
+               <hidden>?</hidden>\r
+               <!--Optional:-->\r
+               <intValue>?</intValue>\r
+               <!--Optional:-->\r
+               <label>?</label>\r
+               <mandatory>?</mandatory>\r
+               <multiple>?</multiple>\r
+               <!--Optional:-->\r
+               <name>?</name>\r
+               <!--Optional:-->\r
+               <parent>?</parent>\r
+               <position>?</position>\r
+               <!--Optional:-->\r
+               <setId>?</setId>\r
+               <!--Optional:-->\r
+               <stringValue>?</stringValue>\r
+               <!--Optional:-->\r
+               <stringValues>?</stringValues>\r
+               <type>?</type>\r
+               <!--Optional:-->\r
+               <value>?</value>\r
+            </attributes>\r
+            <!--Optional:-->\r
+            <comment>?</comment>\r
+            <!--Optional:-->\r
+            <creation>?</creation>\r
+            <!--Optional:-->\r
+            <creator>?</creator>\r
+            <creatorId>?</creatorId>\r
+            <!--Optional:-->\r
+            <customId>?</customId>\r
+            <!--Optional:-->\r
+            <date>?</date>\r
+            <!--Optional:-->\r
+            <deleteUserId>?</deleteUserId>\r
+            <!--Optional:-->\r
+            <digest>?</digest>\r
+            <!--Optional:-->\r
+            <docRef>?</docRef>\r
+            <!--Optional:-->\r
+            <docRefType>?</docRefType>\r
+            <!--Optional:-->\r
+            <exportId>?</exportId>\r
+            <!--Optional:-->\r
+            <exportName>?</exportName>\r
+            <exportStatus>?</exportStatus>\r
+            <!--Optional:-->\r
+            <fileName>?</fileName>\r
+            <fileSize>?</fileSize>\r
+            <!--Optional:-->\r
+            <fileVersion>?</fileVersion>\r
+            <!--Optional:-->\r
+            <folderId>?</folderId>\r
+            <!--Optional:-->\r
+            <formId>?</formId>\r
+            <!--Optional:-->\r
+            <icon>?</icon>\r
+            <id>?</id>\r
+            <immutable>?</immutable>\r
+            <indexed>?</indexed>\r
+            <!--Optional:-->\r
+            <language>?</language>\r
+            <!--Optional:-->\r
+            <lastModified>?</lastModified>\r
+            <!--Optional:-->\r
+            <lockUserId>?</lockUserId>\r
+            <nature>?</nature>\r
+            <pages>?</pages>\r
+            <!--Optional:-->\r
+            <passwordProtected>?</passwordProtected>\r
+            <published>?</published>\r
+            <!--Optional:-->\r
+            <publisher>?</publisher>\r
+            <publisherId>?</publisherId>\r
+            <!--Optional:-->\r
+            <rating>?</rating>\r
+            <!--Optional:-->\r
+            <score>?</score>\r
+            <signed>?</signed>\r
+            <stamped>?</stamped>\r
+            <!--Optional:-->\r
+            <startPublishing>?</startPublishing>\r
+            <status>?</status>\r
+            <!--Optional:-->\r
+            <stopPublishing>?</stopPublishing>\r
+            <!--Optional:-->\r
+            <summary>?</summary>\r
+            <!--Zero or more repetitions:-->\r
+            <tags>?</tags>\r
+            <!--Optional:-->\r
+            <templateId>?</templateId>\r
+            <!--Optional:-->\r
+            <type>?</type>\r
+            <!--Optional:-->\r
+            <version>?</version>\r
+            <!--Optional:-->\r
+            <workflowStatus>?</workflowStatus>\r
+            <!--Optional:-->\r
+            <workflowStatusDisplay>?</workflowStatusDisplay>\r
+         </docVO>\r
+         <!--Optional:-->\r
+         <content>cid:490761066349</content>\r
+      </ws:checkinDocument>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/checkinDocument"/></con:call></con:operation><con:operation id="ba0a85a2-4773-4971-9f88-42aa5db2ba90" isOneWay="false" action="" name="checkout" bindingOperationName="checkout" type="Request-Response" outputName="checkoutResponse" inputName="checkout" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="c148b4ac-274d-4b45-afd6-ce6fb26902d7" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:checkout>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+      </ws:checkout>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/checkout"/></con:call></con:operation><con:operation id="83e7ff60-10e3-41f0-b540-2c093f8f4518" isOneWay="false" action="" name="create" bindingOperationName="create" type="Request-Response" outputName="createResponse" inputName="create" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="382cab4c-91c1-446b-a93a-a4291642f33b" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:create>\r
+      </ws:create>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/create"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="ff93a2a8-1741-4921-9c33-e977757620bb" isOneWay="false" action="" name="createAlias" bindingOperationName="createAlias" type="Request-Response" outputName="createAliasResponse" inputName="createAlias" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="5bbb41f7-683a-4f69-9fa4-5cf9cdfc856d" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:createAlias>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <folderId>?</folderId>\r
+         <!--Optional:-->\r
+         <type>?</type>\r
+      </ws:createAlias>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/createAlias"/></con:call></con:operation><con:operation id="ab914cbc-8206-4a50-bcfe-3590261f2b7a" isOneWay="false" action="" name="createDownloadTicket" bindingOperationName="createDownloadTicket" type="Request-Response" outputName="createDownloadTicketResponse" inputName="createDownloadTicket" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="5d64b025-d5e9-4140-a39c-0d38a0e3be78" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:createDownloadTicket>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <suffix>?</suffix>\r
+         <!--Optional:-->\r
+         <expireHours>?</expireHours>\r
+         <!--Optional:-->\r
+         <expireDate>?</expireDate>\r
+      </ws:createDownloadTicket>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/createDownloadTicket"/></con:call></con:operation><con:operation id="689abad9-dd4e-4e12-91a5-18c1dcb35f03" isOneWay="false" action="" name="createPdf" bindingOperationName="createPdf" type="Request-Response" outputName="createPdfResponse" inputName="createPdf" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="3c473b87-375b-4478-946e-479fad5d6f2e" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:createPdf>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <fileVersion>?</fileVersion>\r
+      </ws:createPdf>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/createPdf"/></con:call></con:operation><con:operation id="b06488e0-f0db-44ce-90e5-a5e70f8a4c23" isOneWay="false" action="" name="createThumbnail" bindingOperationName="createThumbnail" type="Request-Response" outputName="createThumbnailResponse" inputName="createThumbnail" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="e35f17c4-f156-4ef9-bc38-aa37520cf289" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:createThumbnail>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <fileVersion>?</fileVersion>\r
+      </ws:createThumbnail>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/createThumbnail"/></con:call></con:operation><con:operation id="07038afa-8ab9-4cf8-8439-0ed0b07c5867" isOneWay="false" action="" name="delete" bindingOperationName="delete" type="Request-Response" outputName="deleteResponse" inputName="delete" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="f39bdc4a-fd36-44c2-9de5-4b640a4e09a1" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:delete>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+      </ws:delete>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/delete"/></con:call></con:operation><con:operation id="3f3ff278-17be-474c-8a16-c0b06d45bc03" isOneWay="false" action="" name="deleteLink" bindingOperationName="deleteLink" type="Request-Response" outputName="deleteLinkResponse" inputName="deleteLink" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="04e259d1-dab5-4b6f-9abb-39682bab05ae" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:deleteLink>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <id>?</id>\r
+      </ws:deleteLink>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/deleteLink"/></con:call></con:operation><con:operation id="75055ca8-13e0-4031-97fb-8358cf16e9e1" isOneWay="false" action="" name="deleteNote" bindingOperationName="deleteNote" type="Request-Response" outputName="deleteNoteResponse" inputName="deleteNote" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="2e2b8e5f-25af-46ac-8631-514330dc635b" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:deleteNote>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <noteId>?</noteId>\r
+      </ws:deleteNote>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/deleteNote"/></con:call></con:operation><con:operation id="02e1e0b9-d60d-475f-bb54-39ecfca47a54" isOneWay="false" action="" name="deleteVersion" bindingOperationName="deleteVersion" type="Request-Response" outputName="deleteVersionResponse" inputName="deleteVersion" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="5030ea98-bc8b-4727-8f61-3a055b266372" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:deleteVersion>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <version>?</version>\r
+      </ws:deleteVersion>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/deleteVersion"/></con:call></con:operation><con:operation id="b40fa94a-000b-42a5-8a2d-8dd488d6bf98" isOneWay="false" action="" name="getAliases" bindingOperationName="getAliases" type="Request-Response" outputName="getAliasesResponse" inputName="getAliases" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="333311bc-d9af-46ab-92c9-d6d6aba6a029" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:getAliases>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+      </ws:getAliases>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/getAliases"/></con:call></con:operation><con:operation id="e7311494-30ba-4769-8ece-6da883673f48" isOneWay="false" action="" name="getContent" bindingOperationName="getContent" type="Request-Response" outputName="getContentResponse" inputName="getContent" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="c0bf9eb2-06c8-4da6-a44d-19f1785e9742" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:getContent>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+      </ws:getContent>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/getContent"/></con:call></con:operation><con:operation id="772f9190-9042-432c-832d-ae2d8be32b53" isOneWay="false" action="" name="getDocument" bindingOperationName="getDocument" type="Request-Response" outputName="getDocumentResponse" inputName="getDocument" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="73e97829-0764-4466-bd66-643e3803d101" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:getDocument>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+      </ws:getDocument>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/getDocument"/></con:call></con:operation><con:operation id="e93f0b80-5951-4991-ab97-30046640df26" isOneWay="false" action="" name="getDocumentByCustomId" bindingOperationName="getDocumentByCustomId" type="Request-Response" outputName="getDocumentByCustomIdResponse" inputName="getDocumentByCustomId" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="c76225f7-8eb4-45db-b063-27b6ae3ebfe1" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:getDocumentByCustomId>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <!--Optional:-->\r
+         <customId>?</customId>\r
+      </ws:getDocumentByCustomId>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/getDocumentByCustomId"/></con:call></con:operation><con:operation id="f61a4c32-304a-471e-8e87-ff2db2f5b1cc" isOneWay="false" action="" name="getDocuments" bindingOperationName="getDocuments" type="Request-Response" outputName="getDocumentsResponse" inputName="getDocuments" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="4f21c7f7-dc20-4259-b77d-a43d944aec96" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:getDocuments>\r
+      </ws:getDocuments>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/getDocuments"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="8b42cc0f-7474-4e92-8eee-69018275c30a" isOneWay="false" action="" name="getExtractedText" bindingOperationName="getExtractedText" type="Request-Response" outputName="getExtractedTextResponse" inputName="getExtractedText" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="a57bb512-5035-4e33-a934-476f87e93c2b" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:getExtractedText>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+      </ws:getExtractedText>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/getExtractedText"/></con:call></con:operation><con:operation id="cebe78b1-f4b7-4371-aef4-500516624ec1" isOneWay="false" action="" name="getLinks" bindingOperationName="getLinks" type="Request-Response" outputName="getLinksResponse" inputName="getLinks" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="ee0e998f-2ee5-4d4a-9f37-d1a12242cde6" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:getLinks>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+      </ws:getLinks>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/getLinks"/></con:call></con:operation><con:operation id="651ad5bc-18d4-40c2-a24e-183f28911d6c" isOneWay="false" action="" name="getNotes" bindingOperationName="getNotes" type="Request-Response" outputName="getNotesResponse" inputName="getNotes" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="7c922676-506a-4f8f-bda5-7e58b1267bb9" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:getNotes>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+      </ws:getNotes>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/getNotes"/></con:call></con:operation><con:operation id="384435fb-0713-4930-9c8e-ed7e70c00e51" isOneWay="false" action="" name="getRatings" bindingOperationName="getRatings" type="Request-Response" outputName="getRatingsResponse" inputName="getRatings" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="a315f959-9448-4ba5-a09c-86d902531f06" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:getRatings>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+      </ws:getRatings>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/getRatings"/></con:call></con:operation><con:operation id="7804a718-5d5c-47d6-bb43-e89367664f69" isOneWay="false" action="" name="getRecentDocuments" bindingOperationName="getRecentDocuments" type="Request-Response" outputName="getRecentDocumentsResponse" inputName="getRecentDocuments" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="bf0dada9-9c24-4c66-9291-64b364c03448" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:getRecentDocuments>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <!--Optional:-->\r
+         <maxHits>?</maxHits>\r
+      </ws:getRecentDocuments>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/getRecentDocuments"/></con:call></con:operation><con:operation id="a997dab2-dfc2-441c-a182-f9288870ffdc" isOneWay="false" action="" name="getResource" bindingOperationName="getResource" type="Request-Response" outputName="getResourceResponse" inputName="getResource" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="4c36bbe9-28cf-4e07-ab30-2ddc5993ef6f" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:getResource>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <fileVersion>?</fileVersion>\r
+         <!--Optional:-->\r
+         <suffix>?</suffix>\r
+      </ws:getResource>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/getResource"/></con:call></con:operation><con:operation id="6c6ae733-26af-4b4d-a5c2-7c96512af7f0" isOneWay="false" action="" name="getVersionContent" bindingOperationName="getVersionContent" type="Request-Response" outputName="getVersionContentResponse" inputName="getVersionContent" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="841f8258-aad4-47b0-91c8-e22ad617f02f" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:getVersionContent>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <version>?</version>\r
+      </ws:getVersionContent>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/getVersionContent"/></con:call></con:operation><con:operation id="b62ee2df-c234-44cf-83e3-ebc8746ee77f" isOneWay="false" action="" name="getVersions" bindingOperationName="getVersions" type="Request-Response" outputName="getVersionsResponse" inputName="getVersions" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="925bb3a1-23d7-4171-97d5-d88015ce9d2f" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:getVersions>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+      </ws:getVersions>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/getVersions"/></con:call></con:operation><con:operation id="53cfa690-a046-4094-99eb-adb16801c1b6" isOneWay="false" action="" name="isReadable" bindingOperationName="isReadable" type="Request-Response" outputName="isReadableResponse" inputName="isReadable" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="5b5055c1-7ae7-4715-b28c-8c686115d034" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:isReadable>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+      </ws:isReadable>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/isReadable"/></con:call></con:operation><con:operation id="f8db0705-b042-4021-b345-b99f755063e3" isOneWay="false" action="" name="link" bindingOperationName="link" type="Request-Response" outputName="linkResponse" inputName="link" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="1b481e5a-afb3-4958-adf2-a811e2d482fa" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:link>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <doc1>?</doc1>\r
+         <doc2>?</doc2>\r
+         <!--Optional:-->\r
+         <type>?</type>\r
+      </ws:link>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/link"/></con:call></con:operation><con:operation id="4136a594-bd82-4d5b-844e-0b3669903b5f" isOneWay="false" action="" name="listDocuments" bindingOperationName="listDocuments" type="Request-Response" outputName="listDocumentsResponse" inputName="listDocuments" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="de64038f-0932-4221-9880-ae2e044624b3" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:listDocuments>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <folderId>?</folderId>\r
+         <!--Optional:-->\r
+         <fileName>?</fileName>\r
+      </ws:listDocuments>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/listDocuments"/></con:call></con:operation><con:operation id="ba26fb59-4d35-4ebf-94b7-6c1407c3a2c2" isOneWay="false" action="" name="lock" bindingOperationName="lock" type="Request-Response" outputName="lockResponse" inputName="lock" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="631f6cc7-d13e-44cb-8845-836e9c5b3483" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:lock>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+      </ws:lock>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/lock"/></con:call></con:operation><con:operation id="b8fa963a-6111-4e98-8215-948229738947" isOneWay="false" action="" name="move" bindingOperationName="move" type="Request-Response" outputName="moveResponse" inputName="move" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="c49eef76-60de-4782-9bc8-da77240f13e4" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:move>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <folderId>?</folderId>\r
+      </ws:move>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/move"/></con:call></con:operation><con:operation id="5a286a37-72dd-497e-b268-57646de6a3f9" isOneWay="false" action="" name="promoteVersion" bindingOperationName="promoteVersion" type="Request-Response" outputName="promoteVersionResponse" inputName="promoteVersion" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="fc101dba-5774-4aa6-9087-4b03f5332ef5" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:promoteVersion>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <version>?</version>\r
+      </ws:promoteVersion>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/promoteVersion"/></con:call></con:operation><con:operation id="e49f2698-3ed3-44dc-ad67-f4b85aa41c7f" isOneWay="false" action="" name="rateDocument" bindingOperationName="rateDocument" type="Request-Response" outputName="rateDocumentResponse" inputName="rateDocument" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="bb5cd37a-557e-41a1-88e4-399bce482782" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:rateDocument>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <vote>?</vote>\r
+      </ws:rateDocument>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/rateDocument"/></con:call></con:operation><con:operation id="79c3f223-1b0b-46bd-90b7-4b749a9f6859" isOneWay="false" action="" name="reindex" bindingOperationName="reindex" type="Request-Response" outputName="reindexResponse" inputName="reindex" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="970e01f3-5c01-4e54-87f0-1284336e4c8c" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:reindex>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <content>?</content>\r
+      </ws:reindex>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/reindex"/></con:call></con:operation><con:operation id="c3beb72f-755a-47f5-8f59-749f5cb1aca6" isOneWay="false" action="" name="rename" bindingOperationName="rename" type="Request-Response" outputName="renameResponse" inputName="rename" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="f690650a-ec93-4b3f-9782-79f35aeca1fe" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:rename>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <name>?</name>\r
+      </ws:rename>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/rename"/></con:call></con:operation><con:operation id="d0855add-0689-4a67-822a-ef96e53057e9" isOneWay="false" action="" name="replaceFile" bindingOperationName="replaceFile" type="Request-Response" outputName="replaceFileResponse" inputName="replaceFile" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="6a52963e-73e4-446f-97ec-d8539253cd16" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:replaceFile>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <fileVersion>?</fileVersion>\r
+         <!--Optional:-->\r
+         <comment>?</comment>\r
+         <!--Optional:-->\r
+         <content>cid:1454056154</content>\r
+      </ws:replaceFile>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/replaceFile"/></con:call></con:operation><con:operation id="f396aac5-4604-4438-8a85-112cfc4ba8d9" isOneWay="false" action="" name="restore" bindingOperationName="restore" type="Request-Response" outputName="restoreResponse" inputName="restore" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="6d18d0af-4f7a-4b00-8d3a-8d4311f49bdb" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:restore>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <folderId>?</folderId>\r
+      </ws:restore>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/restore"/></con:call></con:operation><con:operation id="f252b803-03b4-4d3f-986f-607888414bda" isOneWay="false" action="" name="sendEmail" bindingOperationName="sendEmail" type="Request-Response" outputName="sendEmailResponse" inputName="sendEmail" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="4644c898-cc79-42e8-841a-7fbc88790583" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:sendEmail>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <!--Zero or more repetitions:-->\r
+         <docIds>?</docIds>\r
+         <!--Optional:-->\r
+         <recipients>?</recipients>\r
+         <!--Optional:-->\r
+         <subject>?</subject>\r
+         <!--Optional:-->\r
+         <message>?</message>\r
+      </ws:sendEmail>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/sendEmail"/></con:call></con:operation><con:operation id="e1c70706-934b-4a95-8866-de7958a0181f" isOneWay="false" action="" name="setPassword" bindingOperationName="setPassword" type="Request-Response" outputName="setPasswordResponse" inputName="setPassword" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="a43eb98e-1525-4cb9-b053-05d93ad07afc" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:setPassword>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <password>?</password>\r
+      </ws:setPassword>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/setPassword"/></con:call></con:operation><con:operation id="de1ef339-c514-4041-92ba-ff5996b5c0f6" isOneWay="false" action="" name="unlock" bindingOperationName="unlock" type="Request-Response" outputName="unlockResponse" inputName="unlock" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="1a79ed86-c006-47eb-9afb-3383b084695a" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:unlock>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+      </ws:unlock>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/unlock"/></con:call></con:operation><con:operation id="79009d62-0785-403b-8141-97594cf94fe9" isOneWay="false" action="" name="unprotect" bindingOperationName="unprotect" type="Request-Response" outputName="unprotectResponse" inputName="unprotect" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="4fc5585b-7a00-418a-a5db-f1fe0f2d8d87" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:unprotect>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <password>?</password>\r
+      </ws:unprotect>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/unprotect"/></con:call></con:operation><con:operation id="b559413e-f34a-48c8-ab6f-ef6855f67a70" isOneWay="false" action="" name="unsetPassword" bindingOperationName="unsetPassword" type="Request-Response" outputName="unsetPasswordResponse" inputName="unsetPassword" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="e35a33e4-9c83-40a6-a4bc-a4be8061a6a3" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:unsetPassword>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <currentPassword>?</currentPassword>\r
+      </ws:unsetPassword>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/unsetPassword"/></con:call></con:operation><con:operation id="d7d98aa8-f528-499b-a111-54cbef797396" isOneWay="false" action="" name="update" bindingOperationName="update" type="Request-Response" outputName="updateResponse" inputName="update" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="5bb1c639-ad21-4f9b-81ee-276edfcb8318" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:update>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <!--Optional:-->\r
+         <document>\r
+            <!--Zero or more repetitions:-->\r
+            <attributes>\r
+               <!--Optional:-->\r
+               <dateValue>?</dateValue>\r
+               <!--Optional:-->\r
+               <doubleValue>?</doubleValue>\r
+               <editor>?</editor>\r
+               <hidden>?</hidden>\r
+               <!--Optional:-->\r
+               <intValue>?</intValue>\r
+               <!--Optional:-->\r
+               <label>?</label>\r
+               <mandatory>?</mandatory>\r
+               <multiple>?</multiple>\r
+               <!--Optional:-->\r
+               <name>?</name>\r
+               <!--Optional:-->\r
+               <parent>?</parent>\r
+               <position>?</position>\r
+               <!--Optional:-->\r
+               <setId>?</setId>\r
+               <!--Optional:-->\r
+               <stringValue>?</stringValue>\r
+               <!--Optional:-->\r
+               <stringValues>?</stringValues>\r
+               <type>?</type>\r
+               <!--Optional:-->\r
+               <value>?</value>\r
+            </attributes>\r
+            <!--Optional:-->\r
+            <comment>?</comment>\r
+            <!--Optional:-->\r
+            <creation>?</creation>\r
+            <!--Optional:-->\r
+            <creator>?</creator>\r
+            <creatorId>?</creatorId>\r
+            <!--Optional:-->\r
+            <customId>?</customId>\r
+            <!--Optional:-->\r
+            <date>?</date>\r
+            <!--Optional:-->\r
+            <deleteUserId>?</deleteUserId>\r
+            <!--Optional:-->\r
+            <digest>?</digest>\r
+            <!--Optional:-->\r
+            <docRef>?</docRef>\r
+            <!--Optional:-->\r
+            <docRefType>?</docRefType>\r
+            <!--Optional:-->\r
+            <exportId>?</exportId>\r
+            <!--Optional:-->\r
+            <exportName>?</exportName>\r
+            <exportStatus>?</exportStatus>\r
+            <!--Optional:-->\r
+            <fileName>?</fileName>\r
+            <fileSize>?</fileSize>\r
+            <!--Optional:-->\r
+            <fileVersion>?</fileVersion>\r
+            <!--Optional:-->\r
+            <folderId>?</folderId>\r
+            <!--Optional:-->\r
+            <formId>?</formId>\r
+            <!--Optional:-->\r
+            <icon>?</icon>\r
+            <id>?</id>\r
+            <immutable>?</immutable>\r
+            <indexed>?</indexed>\r
+            <!--Optional:-->\r
+            <language>?</language>\r
+            <!--Optional:-->\r
+            <lastModified>?</lastModified>\r
+            <!--Optional:-->\r
+            <lockUserId>?</lockUserId>\r
+            <nature>?</nature>\r
+            <pages>?</pages>\r
+            <!--Optional:-->\r
+            <passwordProtected>?</passwordProtected>\r
+            <published>?</published>\r
+            <!--Optional:-->\r
+            <publisher>?</publisher>\r
+            <publisherId>?</publisherId>\r
+            <!--Optional:-->\r
+            <rating>?</rating>\r
+            <!--Optional:-->\r
+            <score>?</score>\r
+            <signed>?</signed>\r
+            <stamped>?</stamped>\r
+            <!--Optional:-->\r
+            <startPublishing>?</startPublishing>\r
+            <status>?</status>\r
+            <!--Optional:-->\r
+            <stopPublishing>?</stopPublishing>\r
+            <!--Optional:-->\r
+            <summary>?</summary>\r
+            <!--Zero or more repetitions:-->\r
+            <tags>?</tags>\r
+            <!--Optional:-->\r
+            <templateId>?</templateId>\r
+            <!--Optional:-->\r
+            <type>?</type>\r
+            <!--Optional:-->\r
+            <version>?</version>\r
+            <!--Optional:-->\r
+            <workflowStatus>?</workflowStatus>\r
+            <!--Optional:-->\r
+            <workflowStatusDisplay>?</workflowStatusDisplay>\r
+         </document>\r
+      </ws:update>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/update"/></con:call></con:operation><con:operation id="250dd5e4-58f8-4792-aa25-45727b78bf5d" isOneWay="false" action="" name="upload" bindingOperationName="upload" type="Request-Response" outputName="uploadResponse" inputName="upload" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="54b6ca3b-d6cb-48f9-a24c-89c96f415845" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:upload>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <!--Optional:-->\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <folderId>?</folderId>\r
+         <release>?</release>\r
+         <!--Optional:-->\r
+         <filename>?</filename>\r
+         <!--Optional:-->\r
+         <language>?</language>\r
+         <!--Optional:-->\r
+         <content>cid:946247815485</content>\r
+      </ws:upload>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/upload"/></con:call></con:operation><con:operation id="cad1461f-0c60-4d37-b4fb-f54ab98464af" isOneWay="false" action="" name="uploadResource" bindingOperationName="uploadResource" type="Request-Response" outputName="uploadResourceResponse" inputName="uploadResource" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="a1bc0524-090a-4b02-bb7f-545ee150860d" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Document</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:uploadResource>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+         <docId>?</docId>\r
+         <!--Optional:-->\r
+         <fileVersion>?</fileVersion>\r
+         <!--Optional:-->\r
+         <suffix>?</suffix>\r
+         <!--Optional:-->\r
+         <content>cid:989233700000</content>\r
+      </ws:uploadResource>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Document/uploadResource"/></con:call></con:operation></con:interface><con:interface xsi:type="con:WsdlInterface" id="aa3484bd-38bf-4ddf-8f1f-7759aa0717da" wsaVersion="NONE" name="SoapAuthServiceServiceSoapBinding" type="wsdl" bindingName="{http://endpoint.soap.webservice.logicaldoc.com/}SoapAuthServiceServiceSoapBinding" soapVersion="1_1" anonymous="optional" definition="http://localhost:8080/logicaldoc/services/Auth?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://localhost:8080/logicaldoc/services/Auth?wsdl"><con:part><con:url>http://localhost:8080/logicaldoc/services/Auth?wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="SoapAuthServiceService" targetNamespace="http://endpoint.soap.webservice.logicaldoc.com/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://endpoint.soap.webservice.logicaldoc.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:ns1="http://ws.logicaldoc.com">
+  <wsdl:import location="http://localhost:8080/logicaldoc/services/Auth?wsdl=Auth.wsdl" namespace="http://ws.logicaldoc.com"></wsdl:import>
+  <wsdl:binding name="SoapAuthServiceServiceSoapBinding" type="ns1:Auth">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="valid">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="valid">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="validResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="logout">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="logout">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="logoutResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="renew">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="renew">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="renewResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="login">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="login">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="loginResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SoapAuthServiceService">
+    <wsdl:port binding="tns:SoapAuthServiceServiceSoapBinding" name="SoapAuthServicePort">
+      <soap:address location="http://localhost:8080/logicaldoc/services/Auth"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>http://localhost:8080/logicaldoc/services/Auth?wsdl=Auth.wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="Auth" targetNamespace="http://ws.logicaldoc.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="http://ws.logicaldoc.com">
+  <wsdl:types>
+    <xs:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://ws.logicaldoc.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ws.logicaldoc.com">
+      <xs:element name="login" type="tns:login"/>
+      <xs:element name="loginResponse" type="tns:loginResponse"/>
+      <xs:element name="logout" type="tns:logout"/>
+      <xs:element name="logoutResponse" type="tns:logoutResponse"/>
+      <xs:element name="renew" type="tns:renew"/>
+      <xs:element name="renewResponse" type="tns:renewResponse"/>
+      <xs:element name="valid" type="tns:valid"/>
+      <xs:element name="validResponse" type="tns:validResponse"/>
+      <xs:complexType name="valid">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="validResponse">
+        <xs:sequence>
+          <xs:element name="return" type="xs:boolean"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="logout">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="logoutResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="renew">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="sid" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="renewResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="login">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="username" type="xs:string"/>
+          <xs:element minOccurs="0" name="password" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="loginResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Exception" type="tns:Exception"/>
+      <xs:complexType name="Exception">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="message" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="valid">
+    <wsdl:part element="ns1:valid" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="renewResponse">
+    <wsdl:part element="ns1:renewResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="validResponse">
+    <wsdl:part element="ns1:validResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="logout">
+    <wsdl:part element="ns1:logout" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="logoutResponse">
+    <wsdl:part element="ns1:logoutResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="loginResponse">
+    <wsdl:part element="ns1:loginResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="renew">
+    <wsdl:part element="ns1:renew" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="login">
+    <wsdl:part element="ns1:login" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="Exception">
+    <wsdl:part element="ns1:Exception" name="Exception"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="Auth">
+    <wsdl:operation name="valid">
+      <wsdl:input message="ns1:valid" name="valid"></wsdl:input>
+      <wsdl:output message="ns1:validResponse" name="validResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="logout">
+      <wsdl:input message="ns1:logout" name="logout"></wsdl:input>
+      <wsdl:output message="ns1:logoutResponse" name="logoutResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="renew">
+      <wsdl:input message="ns1:renew" name="renew"></wsdl:input>
+      <wsdl:output message="ns1:renewResponse" name="renewResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="login">
+      <wsdl:input message="ns1:login" name="login"></wsdl:input>
+      <wsdl:output message="ns1:loginResponse" name="loginResponse"></wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception"></wsdl:fault>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://localhost:8080/logicaldoc/services/Auth</con:endpoint></con:endpoints><con:operation id="edd06ace-f261-442e-ac2b-f18c960066df" isOneWay="false" action="" name="login" bindingOperationName="login" type="Request-Response" outputName="loginResponse" inputName="login" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="bcb78fec-88bf-4387-950c-dee0e05b44b2" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Auth</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:login>\r
+         <!--Optional:-->\r
+         <username>admin</username>\r
+         <!--Optional:-->\r
+         <password>admin</password>\r
+      </ws:login>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Auth/login"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="1d5806c8-1b28-4ed2-9c0b-bb667a720678" isOneWay="false" action="" name="logout" bindingOperationName="logout" type="Request-Response" outputName="logoutResponse" inputName="logout" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="f130a2ac-7456-4767-b984-d616ea6904e4" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Auth</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:logout>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+      </ws:logout>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Auth/logout"/></con:call></con:operation><con:operation id="84abda2d-5170-44a2-8556-4bd1e19938ab" isOneWay="false" action="" name="renew" bindingOperationName="renew" type="Request-Response" outputName="renewResponse" inputName="renew" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="4bf9e74c-3fe2-4171-a135-aab22fb8bac2" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Auth</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:renew>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+      </ws:renew>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Auth/renew"/></con:call></con:operation><con:operation id="f381da4a-6b6f-4319-8c7e-665592d962b0" isOneWay="false" action="" name="valid" bindingOperationName="valid" type="Request-Response" outputName="validResponse" inputName="valid" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="7695fe0a-4469-4ac0-899c-33f48470c6d1" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Auth</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:valid>\r
+         <!--Optional:-->\r
+         <sid>?</sid>\r
+      </ws:valid>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Auth/valid"/></con:call></con:operation></con:interface><con:testSuite id="a5b0b6ad-0d9c-4ec4-89d1-490d9dd064eb" name="TestSuite 1"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="faec7025-4cce-4448-bdbd-d8805c6a9b71" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 1" searchProperties="true"><con:settings/><con:testStep type="request" id="41061e5c-4dc7-4e45-96ed-2fcf4237685d" name="login - Request 1"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>SoapAuthServiceServiceSoapBinding</con:interface><con:operation>login</con:operation><con:request name="login - Request 1" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="330d8361-d5e6-4c3e-9df4-9bb946033b79"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Auth</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:login>\r
+         <!--Optional:-->\r
+         <username>admin</username>\r
+         <!--Optional:-->\r
+         <password>admin</password>\r
+      </ws:login>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="74ffdbc3-02e5-4361-b3b6-ee6365249879" name="SOAP Response"/><con:assertion type="Valid HTTP Status Codes" id="b4bfa996-ad94-445b-a1ae-d20594457a3a" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Auth/login"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" id="c24d649e-96f3-40b8-92a1-cde42b8be942" name="valid - Request 1"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>SoapAuthServiceServiceSoapBinding</con:interface><con:operation>valid</con:operation><con:request name="valid - Request 1" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="6458a7a5-3f47-452c-a8ad-3e051a70915f"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Auth</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:valid>\r
+         <!--Optional:-->\r
+         <sid>c5a3b06d-53a1-45f0-baf9-af4562a04498</sid>\r
+      </ws:valid>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="f2ef00a9-7d23-4519-bfb0-f3bcc254b6ef" name="SOAP Response"/><con:assertion type="Valid HTTP Status Codes" id="378dec2e-1100-47aa-84b7-20676c5ce216" name="Valid HTTP Status Codes"><con:configuration><codes>200
+</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Auth/valid"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" id="1ed9105d-cb45-409f-9711-4acfc23d561b" name="logout - Request 1"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>SoapAuthServiceServiceSoapBinding</con:interface><con:operation>logout</con:operation><con:request name="logout - Request 1" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="4df7eacb-bfa0-48cb-88bd-4422e48dfb46"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Auth</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:logout>\r
+         <!--Optional:-->\r
+         <sid>c5a3b06d-53a1-45f0-baf9-af4562a04498</sid>\r
+      </ws:logout>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="bb083111-dc55-4af4-88f6-cb5e3508a773" name="SOAP Response"/><con:assertion type="Valid HTTP Status Codes" id="7418130a-97d6-42f3-b41f-d6dc5dcce500" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Auth/logout"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" id="960c57b0-4b39-4ad7-b571-69ca28d86799" name="Copy of valid - Request 1"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>SoapAuthServiceServiceSoapBinding</con:interface><con:operation>valid</con:operation><con:request name="Copy of valid - Request 1" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="6458a7a5-3f47-452c-a8ad-3e051a70915f"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/logicaldoc/services/Auth</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.logicaldoc.com">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ws:valid>\r
+         <!--Optional:-->\r
+         <sid>c5a3b06d-53a1-45f0-baf9-af4562a04498</sid>\r
+      </ws:valid>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="f2ef00a9-7d23-4519-bfb0-f3bcc254b6ef" name="SOAP Response"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://endpoint.soap.webservice.logicaldoc.com/Auth/valid"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
