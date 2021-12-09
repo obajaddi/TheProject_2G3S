@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.util.List;
 import java.util.logging.Logger;
 
-//import org.apache.log4j.Logger;
 import org.apache.xmlbeans.XmlException;
 
 import com.eviware.soapui.impl.wsdl.WsdlProject;
@@ -24,21 +23,9 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-	//private final String restProject = "src/test/resources/REST-Simpleplan-soapui-project.xml" ;
 	private final String soapProject = "src/test/resources/SOAP-Logicaldoc-soapui-project.xml";
 	private final Logger LOGGER = Logger.getLogger(AppTest.class.getName());
 
-	/*@Test
-	public void testSimple() throws Exception {
-		SoapUITestCaseRunner testCaseRunner = new SoapUITestCaseRunner();
-		testCaseRunner.setProjectFile(restProject);
-		try {
-			testCaseRunner.run();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	*/
 	
 	@Test
 	public void testIntermediaire()

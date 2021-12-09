@@ -1,5 +1,5 @@
-2021-12-09 13:48:39,169 WARN  [SoapUI] Missing folder [C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3\ext] for external libraries
-2021-12-09 13:48:39,325 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\formation\soapui-settings.xml]
-2021-12-09 13:48:40,093 INFO  [PluginManager] 0 plugins loaded in 1 ms
-2021-12-09 13:48:40,093 INFO  [DefaultSoapUICore] All plugins loaded
-2021-12-09 13:48:40,498 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/SquashTA-1.10.0-RELEASE-workspace/TheProject_2G3/src/test/resources/SOAP-Logicaldoc-soapui-project.xml]
+2021-12-09 18:09:43,759 WARN  [SoapUI] Missing folder [C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3S\ext] for external libraries
+2021-12-09 18:09:43,932 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\formation\soapui-settings.xml]
+2021-12-09 18:09:44,811 INFO  [PluginManager] 0 plugins loaded in 1 ms
+2021-12-09 18:09:44,811 INFO  [DefaultSoapUICore] All plugins loaded
+2021-12-09 18:09:45,272 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/SquashTA-1.10.0-RELEASE-workspace/TheProject_2G3S/src/test/resources/SOAP-Logicaldoc-soapui-project.xml]
