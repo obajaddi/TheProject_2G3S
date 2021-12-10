@@ -1,8 +1,11 @@
 package org.eql.TheProject_2G3;
 
 import static org.junit.Assert.assertEquals;
+//import static org.junit.Assert.assertTrue;
 
 import java.io.IOException;
+//import java.util.ArrayList;
+//import java.util.Collection;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -18,15 +21,14 @@ import com.eviware.soapui.tools.SoapUITestCaseRunner;
 
 import org.junit.Test;
 
-/**
- * Unit test for simple App.
- */
+
+
+
 public class AppTest 
 {
 	private final String soapProject = "src/test/resources/SOAP-Logicaldoc-soapui-project.xml";
 	private final Logger LOGGER = Logger.getLogger(AppTest.class.getName());
 
-	
 	@Test
 	public void testIntermediaire()
 	        throws XmlException, IOException, SoapUIException {
