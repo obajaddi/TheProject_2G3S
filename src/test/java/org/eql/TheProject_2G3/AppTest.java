@@ -28,7 +28,7 @@ import org.junit.Test;
 
 public class AppTest 
 {
-	private final String soapProject = "src/test/resources/SOAP-Logicaldoc-soapui-project.xml";
+	private final String soapProject = "src/test/resources/v1_SOAP-Logicaldoc-soapui-project.xml";
 	private final Logger LOGGER = Logger.getLogger(AppTest.class.getName());
 
 	@Test
