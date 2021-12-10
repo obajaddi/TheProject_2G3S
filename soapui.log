@@ -1,12 +1,12 @@
-2021-12-10 11:33:03,739 WARN  [SoapUI] Missing folder [C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3S\ext] for external libraries
-2021-12-10 11:33:03,895 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\formation\soapui-settings.xml]
-2021-12-10 11:33:04,638 INFO  [PluginManager] 0 plugins loaded in 1 ms
-2021-12-10 11:33:04,638 INFO  [DefaultSoapUICore] All plugins loaded
-2021-12-10 11:33:05,221 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/SquashTA-1.10.0-RELEASE-workspace/TheProject_2G3S/src/test/resources/SOAP-Logicaldoc-soapui-project.xml]
-2021-12-10 11:33:06,283 INFO  [log] true
-2021-12-10 11:33:06,286 ERROR [SoapUI] An error occurred [assert false
+2021-12-10 13:39:45,817 WARN  [SoapUI] Missing folder [C:\Users\formation\Documents\SquashTA-1.10.0-RELEASE-workspace\TheProject_2G3S\ext] for external libraries
+2021-12-10 13:39:45,983 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\formation\soapui-settings.xml]
+2021-12-10 13:39:46,771 INFO  [PluginManager] 0 plugins loaded in 2 ms
+2021-12-10 13:39:46,771 INFO  [DefaultSoapUICore] All plugins loaded
+2021-12-10 13:39:47,402 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/SquashTA-1.10.0-RELEASE-workspace/TheProject_2G3S/src/test/resources/SOAP-Logicaldoc-soapui-project.xml]
+2021-12-10 13:39:48,444 INFO  [log] true
+2021-12-10 13:39:48,446 ERROR [SoapUI] An error occurred [assert false
 ], see error log for details
-2021-12-10 11:33:06,287 ERROR [errorlog] Assertion failed: 
+2021-12-10 13:39:48,447 ERROR [errorlog] Assertion failed: 
 
 assert false
 
@@ -29,7 +29,7 @@ assert false
 	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:76)
 	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:594)
 	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:78)
-	at org.eql.TheProject_2G3.AppTest.testIntermediaire(AppTest.java:51)
+	at org.eql.TheProject_2G3.AppTest.testIntermediaire(AppTest.java:53)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
