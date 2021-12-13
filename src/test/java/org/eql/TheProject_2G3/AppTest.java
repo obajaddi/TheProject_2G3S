@@ -42,6 +42,7 @@ public class AppTest
 		
 	    List<TestSuite> testSuiteList = project.getTestSuiteList();
 	    // Iteration sur tous les TestSuites du projet
+	    int countError = 0;
 	    for (TestSuite ts : testSuiteList) {
 	        LOGGER.info("******Running " + ts.getName() + "***********");
 	        // Recupere tous les TestCases d'une TestSuite
@@ -56,10 +57,14 @@ public class AppTest
 	            //assertEquals(TestRunner.Status.FINISHED, testCaseRunner.getStatus());
 	            List<TestStepResult> resultats = testCaseRunner.getResults();
 	            String log = "\n";
+	            log += "TessSuite : "+resultats.get(0).getTestStep().getTestCase().getTestSuite().getName() + "\n";
+	            log += "  TestCase : "+resultats.get(0).getTestStep().getTestCase().getName()+ "\n";
 	            for(TestStepResult tsr : resultats) {
-	            	log += tsr.getTestStep().getName() + " = "+tsr.getStatus()+"  en : "+tsr.getTimeTaken() +" ms"+ "\n";
+	            	if (tsr.getStatus().equals(TestStepResult.TestStepStatus.FAILED)) {countError++;}
+	            	log += "    "+ tsr.getTestStep().getName() + " = "+tsr.getStatus()+"  en : "+tsr.getTimeTaken() +" ms"+ "\n";
 	            }
             	LOGGER.info(log);
+            	if (countError>0) {LOGGER.warning("Il y a : "+countError+" test en échec");}
 	        }
 	    }
 	}
